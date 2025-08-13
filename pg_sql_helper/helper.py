@@ -62,6 +62,7 @@ class PgSqlHelper:
         self.drop_with_regex = columns
 
     def _rename_columns(self, df):
+        # TODO implements
         return df
 
     def _drop_columns(self, df, table):
